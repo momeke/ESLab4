@@ -6,7 +6,10 @@ public abstract class Flight {
     private Date departureTime;
     private String departureGate;
     private Airline airline;
-    private double flightCost;
+    private double costCharged;
     private Customer customers;
     private AirCraft airCraft;
 }
+ public double costPerFlight(){
+ }
+
